@@ -35,3 +35,6 @@ These are the available properties for the application:
 
 To override these configuration, create a file call application.properties with the expected values at the location used to start the application
 
+**Notes**
+1. During build, only unit tests are executed. API tests are provided using REST assured library
+2. Service layer are omitted to reduce the completixity for the assignment
