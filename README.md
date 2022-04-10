@@ -1,6 +1,6 @@
 **Introduction**
 
-This is the Valiantlytix Loyalty application for version 1.0.0
+This is the Valiantlytix Loyalty application for version v1.0.0
 
 **Pre-installation requirements**
 
@@ -81,4 +81,8 @@ jwt.secret=javainuse
 **Notes**
 1. During build, only unit tests are executed. API tests are provided using REST assured library
 2. Service layer are omitted to reduce the completixity for the assignment
-3. User authentication is currently hardcoded as username=loyalty, password=password 
+3. User authentication for JWT token generation is currently hardcoded as below:
+   |Field   |Value   |
+   |--------|--------|
+   |Username|loyalty |
+   |Password|password|
