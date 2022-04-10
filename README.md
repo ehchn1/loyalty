@@ -35,6 +35,24 @@ Below are the minimum version and neccesary software and tools required to build
 
    ```java -jar /target/loyalty-1.0.0.jar```
 
+9. To generate a JWT token, perform a HTTP POST to this URL with username and password in the request body
+
+   ```
+   POST http://localhost:8080/loyalty/authenticate
+   {
+       "username": "loyalty",
+       "password": "password"
+   }
+   ```
+
+   Sample output:
+
+   ```
+   {
+       "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb3lhbHR5IiwiaWF0IjoxNjQ5NTk5NDE4LCJleHAiOjE2NDk2MTc0MTh9.5zlM7TeDhRSIY1r1MO-NqZllUEE_2fN7H-7eOzzMO4E"
+   }
+   ```
+
 **Configuration settings**
 
 These are the available properties for the application:
@@ -63,3 +81,4 @@ jwt.secret=javainuse
 **Notes**
 1. During build, only unit tests are executed. API tests are provided using REST assured library
 2. Service layer are omitted to reduce the completixity for the assignment
+3. User authentication is currently hardcoded as username=loyalty, password=password 
