@@ -8,7 +8,7 @@ Below are the minimum version and neccesary software and tools required to build
 
 1. Java Development Kit 11
 2. Maven 3
-3. MySQL Community Server Database 8 
+3. MySQL Database Community Server 8 
 
 **Installation instructions**
 
@@ -24,7 +24,7 @@ Below are the minimum version and neccesary software and tools required to build
 **Configuration settings**
 
 These are the available properties for the application:
-|Configuration     |Parameter                    |Sample                                                                                      |
+|Configuration     |Parameter                    |Default value                                                                                      |
 |------------------|-----------------------------|--------------------------------------------------------------------------------------------|
 |Context Path      |server.servlet.context-path  |/loyalty                                                                                    |
 |Database URL      |spring.datasource.url        |jdbc:mysql://localhost:3306/loyalty?serverTimezone=Asia/Kuala_Lumpur&characterEncoding=utf8 |
