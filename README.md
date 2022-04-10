@@ -35,7 +35,7 @@ Below are the minimum version and neccesary software and tools required to build
 
    ```java -jar /target/loyalty-1.0.0.jar```
 
-9. To generate a JWT token, perform a HTTP POST to this URL with username and password in the request body
+9. The endpoints in the application is secured. To generate a JWT token, perform a HTTP POST to this URL with username and password in the request body
 
    ```
    POST http://localhost:8080/loyalty/authenticate
