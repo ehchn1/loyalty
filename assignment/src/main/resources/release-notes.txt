@@ -1,0 +1,7 @@
+Valiantlytix Loyalty Application Release Notes
+
+Release History
+
+Version     Date        Description
+----------  ----------  --------------------------------------------------
+1.0.0       2022-04-11  First release of loyalty application
